@@ -4,7 +4,7 @@
 //
 //  Created by Anhar Felimban on 10/8/15.
 //  Copyright © 2015 Anhar Felimban. All rights reserved.
-//  aif2@zips.uakron.edu
+//
 
 import UIKit
 

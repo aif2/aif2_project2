@@ -8,7 +8,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="aif2_project2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
@@ -46,7 +45,9 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="150" id="2kX-A3-VAX"/>
                                             <constraint firstAttribute="width" constant="150" id="4IG-YM-6gV"/>
-                                            <constraint firstAttribute="height" constant="30" id="Qzx-rh-A8S"/>
+                                            <constraint firstAttribute="height" constant="30" id="Qzx-rh-A8S">
+                                                <variation key="heightClass=compact" constant="20"/>
+                                            </constraint>
                                             <constraint firstAttribute="height" constant="20" id="lVH-Ao-LMR"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -198,7 +199,9 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.94025227259999999" blue="0.85259160749999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="OIx-Vz-FMV" firstAttribute="leading" secondItem="nEz-C7-KfS" secondAttribute="trailing" constant="50" id="4rn-O9-2yh"/>
                                     <constraint firstItem="pw0-Oz-IwS" firstAttribute="top" secondItem="bgK-6B-qDc" secondAttribute="bottom" constant="5" id="5nc-um-kGa"/>
+                                    <constraint firstItem="PdK-iH-Ctf" firstAttribute="leading" secondItem="KkB-iz-v2P" secondAttribute="trailing" constant="50" id="5oj-fB-aTP"/>
                                     <constraint firstItem="F80-jm-lGy" firstAttribute="leading" secondItem="dNC-1i-8yW" secondAttribute="leading" constant="60" id="7u1-pO-NsN">
                                         <variation key="heightClass=compact" constant="100"/>
                                     </constraint>
@@ -214,28 +217,22 @@
                                     <constraint firstItem="KkB-iz-v2P" firstAttribute="leading" secondItem="dNC-1i-8yW" secondAttribute="leading" constant="60" id="Kj8-DD-ZdN">
                                         <variation key="heightClass=compact" constant="100"/>
                                     </constraint>
-                                    <constraint firstAttribute="trailing" secondItem="OIx-Vz-FMV" secondAttribute="trailing" constant="50" id="OFK-qf-IUG">
-                                        <variation key="heightClass=compact" constant="100"/>
-                                    </constraint>
                                     <constraint firstItem="nEz-C7-KfS" firstAttribute="leading" secondItem="dNC-1i-8yW" secondAttribute="leading" constant="60" id="Q5D-1A-dn2">
                                         <variation key="heightClass=compact" constant="100"/>
                                     </constraint>
-                                    <constraint firstAttribute="trailing" secondItem="PdK-iH-Ctf" secondAttribute="trailing" constant="50" id="Qxt-RS-3ZA">
-                                        <variation key="heightClass=compact" constant="100"/>
-                                    </constraint>
                                     <constraint firstItem="PdK-iH-Ctf" firstAttribute="top" secondItem="OIx-Vz-FMV" secondAttribute="bottom" constant="5" id="X15-Lh-lVE"/>
-                                    <constraint firstItem="bgK-6B-qDc" firstAttribute="top" secondItem="dNC-1i-8yW" secondAttribute="top" constant="40" id="Y5i-hr-Lcm"/>
+                                    <constraint firstItem="bgK-6B-qDc" firstAttribute="leading" secondItem="Gqe-4e-MSD" secondAttribute="trailing" constant="50" id="XVi-c1-rNp"/>
+                                    <constraint firstItem="bgK-6B-qDc" firstAttribute="top" secondItem="dNC-1i-8yW" secondAttribute="top" constant="40" id="Y5i-hr-Lcm">
+                                        <variation key="heightClass=compact" constant="10"/>
+                                    </constraint>
                                     <constraint firstItem="nEz-C7-KfS" firstAttribute="top" secondItem="F80-jm-lGy" secondAttribute="bottom" constant="10" id="bl6-4d-8aS"/>
                                     <constraint firstItem="KkB-iz-v2P" firstAttribute="top" secondItem="nEz-C7-KfS" secondAttribute="bottom" constant="5" id="cJc-Ut-H9M"/>
-                                    <constraint firstItem="Gqe-4e-MSD" firstAttribute="top" secondItem="dNC-1i-8yW" secondAttribute="top" constant="40" id="cKM-ss-rVi"/>
-                                    <constraint firstAttribute="trailing" secondItem="bgK-6B-qDc" secondAttribute="trailing" constant="50" id="cbn-03-VE9">
-                                        <variation key="heightClass=compact" constant="100"/>
+                                    <constraint firstItem="Gqe-4e-MSD" firstAttribute="top" secondItem="dNC-1i-8yW" secondAttribute="top" constant="40" id="cKM-ss-rVi">
+                                        <variation key="heightClass=compact" constant="10"/>
                                     </constraint>
+                                    <constraint firstItem="pw0-Oz-IwS" firstAttribute="leading" secondItem="F80-jm-lGy" secondAttribute="trailing" constant="50" id="ced-6V-z0H"/>
                                     <constraint firstItem="pw0-Oz-IwS" firstAttribute="top" secondItem="bgK-6B-qDc" secondAttribute="bottom" constant="5" id="ebV-Np-2tg"/>
                                     <constraint firstItem="bgK-6B-qDc" firstAttribute="leading" secondItem="dNC-1i-8yW" secondAttribute="leading" constant="60" id="fYQ-wF-Rua"/>
-                                    <constraint firstAttribute="trailing" secondItem="pw0-Oz-IwS" secondAttribute="trailing" constant="50" id="fcD-9a-VfQ">
-                                        <variation key="heightClass=compact" constant="100"/>
-                                    </constraint>
                                     <constraint firstItem="OIx-Vz-FMV" firstAttribute="top" secondItem="pw0-Oz-IwS" secondAttribute="bottom" constant="10" id="kol-q0-PkY"/>
                                     <constraint firstItem="OIx-Vz-FMV" firstAttribute="leading" secondItem="dNC-1i-8yW" secondAttribute="leading" constant="60" id="lUb-iE-XAw"/>
                                     <constraint firstItem="PdK-iH-Ctf" firstAttribute="leading" secondItem="dNC-1i-8yW" secondAttribute="leading" constant="60" id="rNc-At-FCH"/>
@@ -249,14 +246,14 @@
                                 </constraints>
                                 <variation key="default">
                                     <mask key="constraints">
+                                        <exclude reference="XVi-c1-rNp"/>
                                         <exclude reference="Y5i-hr-Lcm"/>
-                                        <exclude reference="cbn-03-VE9"/>
+                                        <exclude reference="ced-6V-z0H"/>
                                         <exclude reference="ebV-Np-2tg"/>
-                                        <exclude reference="fcD-9a-VfQ"/>
-                                        <exclude reference="OFK-qf-IUG"/>
+                                        <exclude reference="4rn-O9-2yh"/>
                                         <exclude reference="kol-q0-PkY"/>
+                                        <exclude reference="5oj-fB-aTP"/>
                                         <exclude reference="Eb0-gM-DRQ"/>
-                                        <exclude reference="Qxt-RS-3ZA"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact">
@@ -266,19 +263,19 @@
                                     </mask>
                                     <mask key="constraints">
                                         <exclude reference="H6x-G8-Ohx"/>
+                                        <include reference="XVi-c1-rNp"/>
                                         <include reference="Y5i-hr-Lcm"/>
-                                        <include reference="cbn-03-VE9"/>
                                         <exclude reference="fYQ-wF-Rua"/>
                                         <exclude reference="5nc-um-kGa"/>
                                         <exclude reference="JLc-rq-lc6"/>
+                                        <include reference="ced-6V-z0H"/>
                                         <include reference="ebV-Np-2tg"/>
-                                        <include reference="fcD-9a-VfQ"/>
+                                        <include reference="4rn-O9-2yh"/>
                                         <exclude reference="Jfe-Qj-ELW"/>
-                                        <include reference="OFK-qf-IUG"/>
                                         <include reference="kol-q0-PkY"/>
                                         <exclude reference="lUb-iE-XAw"/>
+                                        <include reference="5oj-fB-aTP"/>
                                         <include reference="Eb0-gM-DRQ"/>
-                                        <include reference="Qxt-RS-3ZA"/>
                                         <exclude reference="X15-Lh-lVE"/>
                                         <exclude reference="rNc-At-FCH"/>
                                     </mask>
@@ -296,7 +293,11 @@
                             <constraint firstItem="dNC-1i-8yW" firstAttribute="top" secondItem="Nok-Ep-aEi" secondAttribute="bottom" constant="10" id="ee9-8b-Qrz"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Title" destination="Gqe-4e-MSD" id="R25-b4-QWs"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="200" y="385.5"/>
         </scene>

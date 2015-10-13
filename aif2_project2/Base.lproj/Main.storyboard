@@ -293,9 +293,6 @@
                             <constraint firstItem="dNC-1i-8yW" firstAttribute="top" secondItem="Nok-Ep-aEi" secondAttribute="bottom" constant="10" id="ee9-8b-Qrz"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="Title" destination="Gqe-4e-MSD" id="R25-b4-QWs"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -293,6 +293,13 @@
                             <constraint firstItem="dNC-1i-8yW" firstAttribute="top" secondItem="Nok-Ep-aEi" secondAttribute="bottom" constant="10" id="ee9-8b-Qrz"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="setAuther" destination="KkB-iz-v2P" id="58c-s2-VhV"/>
+                        <outlet property="setISBN" destination="sRd-G7-3gN" id="SEd-eg-o1Q"/>
+                        <outlet property="setPupDate" destination="PdK-iH-Ctf" id="r8y-Lc-khj"/>
+                        <outlet property="setPuplisher" destination="pw0-Oz-IwS" id="Auu-2G-1Bl"/>
+                        <outlet property="setTitle" destination="F80-jm-lGy" id="cP9-ld-9Xh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

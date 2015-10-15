@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>title</key>
+	<string>Computer Coding</string>
+	<key>auther</key>
+	<string>Smith Jones</string>
+	<key>ISBN</key>
+	<string>978-3-16-148410-0</string>
+	<key>puplisher</key>
+	<string>Irwin Publishing</string>
+	<key>puplicationdate </key>
+	<string>2007</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
